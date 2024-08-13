@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Extension</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="lib/marked.min.js"></script>
+    <script id="MathJax-script" async src="lib/tex-mml-chtml.js"></script>
+    <script src="mathjax-config.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <h1><i class="icon-chat"></i> ChatGPT</h1>
+        </div>
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
